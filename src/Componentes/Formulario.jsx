@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 function Formulario(props) {
     const [nombre, setNombre] = useState("");
     const [email, setEmail] = useState("");
@@ -13,10 +14,11 @@ function Formulario(props) {
 
 
    return(
-        <section className="container">
+        <section className="formulario">
             <form onSubmit={guardarColaborador}>
-
+             
                     <div className="mb-3">
+                        <h4>Crear Colaborador</h4>
                         <label htmlFor="nombre" className="form-label"> Nombre del colaborador</label>
                         <input type="texto" className="form-control" id="nombre" name="nombre" 
                             placeholder="Ingresa nombre del colaborador" 

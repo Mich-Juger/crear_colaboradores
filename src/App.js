@@ -4,6 +4,7 @@ import Formulario from './Componentes/Formulario.jsx';
 import Listado from './Componentes/Listado.jsx';
 import { BaseColaboradores } from './BaseColaboradores';
 
+
 import './App.css';
 
 
@@ -12,11 +13,12 @@ function App() {
   const [termino, setTermino] = useState('')
 
   return (
-    <main className='container'>
+    <main>
       <Header setTermino={setTermino}/>
+      <Listado colaboradores={colaboradores} termino={termino}/>
       <Formulario colaboradores={colaboradores} setColaboradores={setColaboradores}/>
       <hr/>
-      <Listado colaboradores={colaboradores} termino={termino}/>
+      
 
     
     </main>

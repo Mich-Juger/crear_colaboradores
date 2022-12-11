@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+header {
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+
+.formulario {
+  margin: 50px;
+}
+
+.listado {
+  margin: 50px;
+
+}
+
+.buscador-colaboradores {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  align-items: center;
+  padding-left: 50px; 
+
+}
+
+.buscador input {
+  width: 400px;
+
+}
+
+.buscador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+svg {
+  margin: 10px;
+}
+
+/*Listado Colaboradores*/
+
+.listado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.listado div {
+  border: 2px solid #E8EBE4;
+  border-bottom-width: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;  
+}
+
